@@ -1,0 +1,6 @@
+{
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "c": "cd \"$dir\" && mkdir -p build && clang \"$fileName\" -o \"build/$fileNameWithoutExt\" && \"./build/$fileNameWithoutExt\""
+  }
+}
