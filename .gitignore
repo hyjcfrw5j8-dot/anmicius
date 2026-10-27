@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code local settings; keep shareable project settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.dSYM/
+
+# This project's root-level compiled executable
+/hello
+/a.out
+
+# Common build directories and generated CMake files
+/build/
+/bin/
+/obj/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
